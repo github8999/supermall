@@ -2,7 +2,7 @@
   "name": "supermall",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github8999.github.io/supermall",
+  "homepage": "https://github8999.github.io/supermall/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
