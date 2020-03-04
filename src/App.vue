@@ -1,5 +1,6 @@
 <template>
   <div class="app">
+    {{a.name}}-{{a.age}}
     <keep-alive exclude="Detail"><router-view></router-view></keep-alive>
     
     <main-tab-bar/>
@@ -16,8 +17,13 @@ export default {
   name: 'App',
   data() { 
     return {
-
+      a: {
+        name: '张三'
+      }
     }
+  },
+  created() {
+    console.log(this.a)
   },
   components:{
     MainTabBar,
