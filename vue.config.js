@@ -10,7 +10,7 @@ module.exports = {
       }
     }
   },
-  publicPath: '/supermall',
+  publicPath: '/',
   
   devServer: {
     open: true,
